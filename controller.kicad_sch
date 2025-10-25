@@ -5610,16 +5610,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 24.13) (xy 53.34 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e6cce37-dcf6-485e-953c-680643dba762")
-	)
-	(wire
-		(pts
 			(xy 44.45 99.06) (xy 44.45 101.6)
 		)
 		(stroke
@@ -5697,6 +5687,16 @@
 			(type default)
 		)
 		(uuid "b201d5b5-c066-4d98-8067-e345416ada78")
+	)
+	(wire
+		(pts
+			(xy 43.18 24.13) (xy 53.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b425349b-6276-4811-bf6c-66854a4c80f9")
 	)
 	(wire
 		(pts
@@ -6087,6 +6087,27 @@
 			(type default)
 		)
 		(uuid "fe0da9dd-9fd5-4103-ac97-173463d9a8e4")
+	)
+	(label "VUSB"
+		(at 44.45 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea8b5150-024c-44fa-9d6b-a0cb66ab9968")
+		(property "Netclass" "Power"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "SWDIO"
 		(shape input)
@@ -9584,7 +9605,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 31.75 39.37 0)
 			(effects
 				(font
