@@ -187,7 +187,7 @@
 	)
 	(pad "1" thru_hole circle
 		(at -9.75 -2.5)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -195,7 +195,7 @@
 	)
 	(pad "1'" thru_hole circle
 		(at -2.5 9.85)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -203,7 +203,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at -9.75 0)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -211,7 +211,7 @@
 	)
 	(pad "2'" thru_hole circle
 		(at 0 9.85)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -219,7 +219,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at -9.75 2.5)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -227,39 +227,39 @@
 	)
 	(pad "3'" thru_hole circle
 		(at 2.5 9.85)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9f5d4e2c-f53c-4ca5-845c-fe3ecec816e0")
 	)
-	(pad "S1" thru_hole circle
+	(pad "4" thru_hole circle
 		(at -3.25 -12.85)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c4c948f1-f6f0-4083-b0ab-5df2164068ca")
 	)
-	(pad "S2" thru_hole circle
-		(at 3.25 -12.85)
-		(size 1.2 1.2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c9357617-15c5-4792-a822-c68edc8bb5d2")
-	)
-	(pad "S3" thru_hole circle
+	(pad "4" thru_hole circle
 		(at -3.25 -8.35)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "4e159688-25a9-447e-b18e-b8ccbd249aa3")
 	)
-	(pad "S4" thru_hole circle
+	(pad "5" thru_hole circle
+		(at 3.25 -12.85)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9357617-15c5-4792-a822-c68edc8bb5d2")
+	)
+	(pad "5" thru_hole circle
 		(at 3.25 -8.35)
-		(size 1.2 1.2)
+		(size 1.4 1.4)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
