@@ -5,11 +5,11 @@
 	(uuid "8767df91-471e-42dd-a6da-5f13f49512a3")
 	(paper "A4")
 	(title_block
-		(title "USB Gamepad Controller")
+		(title "${TITLE}")
 		(date "2025-11-02")
 		(rev "${REVISION}")
 		(company "USU")
-		(comment 1 "Richard Snider (CodeTriangle)")
+		(comment 1 "${AUTHOR}")
 	)
 	(lib_symbols
 		(symbol "3D16:3D16A1N-T-50"
