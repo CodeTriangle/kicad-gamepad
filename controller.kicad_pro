@@ -315,7 +315,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|279400|685800|876e821b-64f1-4998-9e69-57f9ea568cb9|00000000-0000-0000-0000-000000000000|/8767df91-471e-42dd-a6da-5f13f49512a3|/8767df91-471e-42dd-a6da-5f13f49512a3|",
+        "Connecting GND to GND should be fine"
+      ],
+      [
+        "power_pin_not_driven|723900|241300|1a22fd32-5844-4b6e-a9b9-e4aea1c57bf0|00000000-0000-0000-0000-000000000000|/8767df91-471e-42dd-a6da-5f13f49512a3|/8767df91-471e-42dd-a6da-5f13f49512a3|",
+        "VBUS should count as power source"
+      ],
+      [
+        "power_pin_not_driven|838200|533400|a8ff55aa-9c6a-43e8-8257-57704800b444|00000000-0000-0000-0000-000000000000|/8767df91-471e-42dd-a6da-5f13f49512a3|/8767df91-471e-42dd-a6da-5f13f49512a3|",
+        "This should be fine for ESD protection."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -752,5 +765,9 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Richard Snider (CodeTriangle)",
+    "REVISION": "R1.0-A",
+    "TITLE": "USB Gamepad Controller"
+  }
 }
