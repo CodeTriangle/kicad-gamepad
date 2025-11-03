@@ -58,7 +58,72 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|186490000|63649000|bb2ba977-d244-48e9-a391-ef2cde4b5944|5379d993-41ce-470b-bff3-bf2d68fa5bae",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|187202500|64661500|24c0281f-b678-4a94-8119-c12551a30c20|5379d993-41ce-470b-bff3-bf2d68fa5bae",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|190027500|64661500|eb6313d9-33b0-48b6-aa7e-e18762bce7b1|dcaf26b1-dde6-4614-a3f9-f82e5bbce381",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|190740000|63649000|a890321d-460b-4e94-a20c-ae84bb8bc6e3|dcaf26b1-dde6-4614-a3f9-f82e5bbce381",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|192690000|63649000|4004fa59-45ee-45f8-adef-330ed170fa24|9a6eed09-5a4e-4650-80c4-a7d095c39066",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|193402500|64661500|3effd641-2279-4cff-a627-26c188754458|9a6eed09-5a4e-4650-80c4-a7d095c39066",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|196227500|64661500|b43abc19-76fd-4706-9c2d-4b7739d36779|b103fbaa-328c-46fe-91ce-bc7314a53d29",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|196940000|63649000|d5d50d3d-560e-4134-9971-0846d8323ec3|b103fbaa-328c-46fe-91ce-bc7314a53d29",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|78275000|63649000|f7140a77-3391-4e67-b9a4-3bf5bcbaf8e2|38d1bfe2-d523-426a-b39a-3c5efed7414c",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|78987500|64661500|b80b7ea2-6801-4678-b5cb-2be1a2430e38|38d1bfe2-d523-426a-b39a-3c5efed7414c",
+          "MP is not connected\\"
+        ],
+        [
+          "hole_clearance|81812500|64661500|5781696a-1963-4b62-b3cf-e535a177dbb9|aac36a71-aaf8-4945-beae-a028ad8102f3",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|82525000|63649000|e26d5082-3291-47e6-a9ad-b119a75cd435|aac36a71-aaf8-4945-beae-a028ad8102f3",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|83800000|63649000|d3f9c3de-7b4b-4987-b0d5-9266f6380f7a|25821350-3a54-4063-8173-945b04d27568",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|84512500|64661500|03059f1b-727d-4cad-8834-d1890baa9b37|25821350-3a54-4063-8173-945b04d27568",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|87337500|64661500|ddaeb444-8c4f-4695-b315-7a4f6d2a83c1|8567fd4f-bf8a-4997-9099-3939f9822082",
+          "MP is not connected"
+        ],
+        [
+          "hole_clearance|88050000|63649000|ca28a599-499a-47fa-b4b1-03196e213a35|8567fd4f-bf8a-4997-9099-3939f9822082",
+          "MP is not connected"
+        ]
+      ],
       "meta": {
         "version": 2
       },
