@@ -352,7 +352,7 @@
 			)
 		)
 		(symbol "K1-1210UN-01_1_1"
-			(pin power_in line
+			(pin passive line
 				(at -15.24 1.27 0)
 				(length 2.54)
 				(name "TL1"
@@ -370,7 +370,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -15.24 -1.27 0)
 				(length 2.54)
 				(name "BL1"
@@ -388,7 +388,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -2.54 13.97 270)
 				(length 2.54)
 				(name "TL2"
@@ -406,7 +406,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -2.54 -13.97 90)
 				(length 2.54)
 				(name "BL2"
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 13.97 270)
 				(length 2.54)
 				(name "C1"
@@ -442,7 +442,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -13.97 90)
 				(length 2.54)
 				(name "C2"
@@ -460,7 +460,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 2.54 13.97 270)
 				(length 2.54)
 				(name "TR2"
@@ -478,7 +478,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 2.54 -13.97 90)
 				(length 2.54)
 				(name "BR2"
@@ -496,7 +496,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "TR1"
@@ -514,7 +514,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 15.24 -1.27 180)
 				(length 2.54)
 				(name "BR1"

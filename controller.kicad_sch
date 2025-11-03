@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "8767df91-471e-42dd-a6da-5f13f49512a3")
 	(paper "A4")
+	(title_block
+		(title "USB Gamepad Controller")
+		(date "2025-11-02")
+		(rev "${REVISION}")
+		(company "USU")
+		(comment 1 "Richard Snider (CodeTriangle)")
+	)
 	(lib_symbols
 		(symbol "3D16:3D16A1N-T-50"
 			(exclude_from_sim no)
@@ -66,7 +73,7 @@
 				)
 			)
 			(symbol "3D16A1N-T-50_1_1"
-				(pin power_in line
+				(pin passive line
 					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "S1/S2"
@@ -84,7 +91,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "VO"
@@ -102,7 +109,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -1.27 10.16 270)
 					(length 2.54)
 					(name "VDD"
@@ -120,7 +127,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -1.27 -10.16 90)
 					(length 2.54)
 					(name "VSS"
@@ -138,7 +145,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 1.27 10.16 270)
 					(length 2.54)
 					(name "VDD'"
@@ -156,7 +163,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 1.27 -10.16 90)
 					(length 2.54)
 					(name "VSS'"
@@ -174,7 +181,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "S2/S3"
@@ -192,7 +199,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "VO'"
@@ -4203,7 +4210,7 @@
 				)
 			)
 			(symbol "K1-1210UN-01_1_1"
-				(pin power_in line
+				(pin passive line
 					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "TL1"
@@ -4221,7 +4228,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "BL1"
@@ -4239,7 +4246,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -2.54 13.97 270)
 					(length 2.54)
 					(name "TL2"
@@ -4257,7 +4264,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -2.54 -13.97 90)
 					(length 2.54)
 					(name "BL2"
@@ -4275,7 +4282,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 13.97 270)
 					(length 2.54)
 					(name "C1"
@@ -4293,7 +4300,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 0 -13.97 90)
 					(length 2.54)
 					(name "C2"
@@ -4311,7 +4318,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 2.54 13.97 270)
 					(length 2.54)
 					(name "TR2"
@@ -4329,7 +4336,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 2.54 -13.97 90)
 					(length 2.54)
 					(name "BR2"
@@ -4347,7 +4354,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 1.27 180)
 					(length 2.54)
 					(name "TR1"
@@ -4365,7 +4372,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 15.24 -1.27 180)
 					(length 2.54)
 					(name "BR1"
@@ -11926,7 +11933,7 @@
 	)
 	(text "Center Buttons"
 		(exclude_from_sim no)
-		(at 143.764 126.238 0)
+		(at 143.51 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11981,6 +11988,12 @@
 		(uuid "04c5cfc3-cc22-497c-8f4a-5c25355ae078")
 	)
 	(junction
+		(at 68.58 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05aec7e5-b736-4778-b748-d6df133748f8")
+	)
+	(junction
 		(at 255.27 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12027,12 +12040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36d4754d-dc20-4b59-95ae-d68a7a29d21b")
-	)
-	(junction
-		(at 68.58 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40e5db6c-a0b4-47c4-a9d2-8fc1d301ecab")
 	)
 	(junction
 		(at 58.42 104.14)
@@ -12648,6 +12655,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 24.13) (xy 72.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d3455b-5647-4e39-9e2d-7ac5a2fdc781")
+	)
+	(wire
+		(pts
 			(xy 167.64 63.5) (xy 167.64 66.04)
 		)
 		(stroke
@@ -12695,16 +12712,6 @@
 			(type default)
 		)
 		(uuid "19a5c392-4ed8-48fc-a5ea-98d7047968a7")
-	)
-	(wire
-		(pts
-			(xy 68.58 24.13) (xy 72.39 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b37be0f-4cbe-4a4d-a0eb-3711702d0fd0")
 	)
 	(wire
 		(pts
@@ -15265,16 +15272,6 @@
 			(type default)
 		)
 		(uuid "f4ceefc0-3579-4410-98d0-6ba5f3a8c0e4")
-	)
-	(wire
-		(pts
-			(xy 68.58 24.13) (xy 68.58 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f610085f-db9e-4b70-9bda-4e63256291d6")
 	)
 	(wire
 		(pts
@@ -20567,72 +20564,6 @@
 			(project "controller"
 				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
 					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 68.58 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9735b0c9-c0d8-4e3e-b93b-0676f179fdf7")
-		(property "Reference" "#PWR06"
-			(at 68.58 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5fddad6-b23a-4945-8bb3-f48aff3e2fe5")
-		)
-		(instances
-			(project "controller"
-				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
