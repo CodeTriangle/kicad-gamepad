@@ -17314,7 +17314,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0e69ed43-3b54-4acc-bee9-06f2254c309b")
 		(property "Reference" "VR1"
@@ -23208,7 +23208,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e86dbeec-c733-4a23-aa2f-ee1ac7ea7a00")
 		(property "Reference" "SW7"
@@ -23440,7 +23440,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f07e1d69-4f74-4ec8-93e7-fae1d166e818")
 		(property "Reference" "VR2"
