@@ -12228,6 +12228,12 @@
 		(uuid "bdf164d9-6083-4aa5-a039-b40cd8fd22a4")
 	)
 	(junction
+		(at 27.94 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17d2bb4-fad6-42d3-b49b-324b3a8b3ab5")
+	)
+	(junction
 		(at 125.73 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12250,12 +12256,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9c35896-9964-440b-b7dd-f71d783d70f2")
-	)
-	(junction
-		(at 27.94 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce9f1e2c-ece6-47a8-9708-a9254708b514")
 	)
 	(junction
 		(at 201.93 43.18)
@@ -13185,6 +13185,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 21.59) (xy 68.58 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4703ead1-c2a3-4868-8861-ef835d4026aa")
+	)
+	(wire
+		(pts
 			(xy 243.84 123.19) (xy 243.84 124.46)
 		)
 		(stroke
@@ -13325,13 +13335,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 68.58) (xy 27.94 66.04)
+			(xy 27.94 64.77) (xy 27.94 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e31b5d2-fa7d-4994-a152-621ade9f2f3e")
+		(uuid "4e2a36d9-e178-4ac0-b831-ca30387834d1")
 	)
 	(wire
 		(pts
@@ -13572,6 +13582,16 @@
 			(type default)
 		)
 		(uuid "612e6846-eecb-4ab4-816e-7b17049f3a6d")
+	)
+	(wire
+		(pts
+			(xy 20.32 62.23) (xy 20.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d24c13-5e09-4ffe-ad48-2a28a6435417")
 	)
 	(wire
 		(pts
@@ -13825,16 +13845,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 62.23) (xy 20.32 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea7132a-2b70-4581-b0e6-10200b880268")
-	)
-	(wire
-		(pts
 			(xy 80.01 41.91) (xy 90.17 41.91)
 		)
 		(stroke
@@ -13875,7 +13885,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 62.23) (xy 27.94 66.04)
+			(xy 27.94 62.23) (xy 27.94 64.77)
 		)
 		(stroke
 			(width 0)
@@ -14892,6 +14902,16 @@
 			(type default)
 		)
 		(uuid "d987bf43-2661-4f58-91c8-1845dae70f0c")
+	)
+	(wire
+		(pts
+			(xy 20.32 64.77) (xy 27.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98eb32e-c493-462e-9cc9-4b56b7f667f0")
 	)
 	(wire
 		(pts
@@ -16832,6 +16852,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc121e15-36bf-45f9-9c7f-72b61bcc3f28")
 		)
@@ -16965,6 +17021,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 271.78 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 271.78 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 271.78 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 271.78 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "595dc232-7517-44fb-b61d-625585d6766f")
 		)
@@ -17028,6 +17120,42 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 128KB RAM, 80 MHz, 1.71-3.6V, 51 GPIO, LQFP64"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "STMicroelectronics"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32L476RGT6"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "497-15877-ND"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 80.01 139.7 0)
 			(effects
 				(font
@@ -17292,6 +17420,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Samsung"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL03A105MQ3CSNC"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "1276-1325-1-ND"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 115.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c53fa549-96a9-4a1d-8142-053132d785a0")
 		)
@@ -17352,6 +17516,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" ""
+			(at 256.54 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" ""
 			(at 256.54 31.75 0)
 			(effects
 				(font
@@ -17577,6 +17777,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "onsemi"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NUP2202W1T2G"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "NUP2202W1T2GOSCT-ND"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba89db1f-fc5f-44a8-bca1-06f2f1e5233e")
 		)
@@ -17651,6 +17887,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033R71A103KA01D"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-3194-1-ND"
+			(at 125.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -17792,6 +18064,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Murata"
+			(at 40.64 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 40.64 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 40.64 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 40.64 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d606c52-45bb-4570-a71c-b7b4f5ab2743")
 		)
@@ -17862,6 +18170,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "YAGEO"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-075K1L"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "YAG2741CT-ND"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63b01315-2623-4a9b-af87-0370cd8995e5")
 		)
@@ -17923,6 +18267,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 265.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 265.43 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 265.43 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 265.43 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 265.43 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18000,6 +18380,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bf14c08-05dd-4dcd-9613-43df45d381d1")
 		)
@@ -18033,7 +18449,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 93.98 33.0199 0)
 			(effects
 				(font
@@ -18042,7 +18458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.2048 27.94 0)
 			(effects
 				(font
@@ -18061,6 +18477,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-GRM155R61A106ME11DCT-ND"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 90.17 31.75 0)
 			(effects
 				(font
@@ -18139,6 +18591,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "193ca39b-4da1-48e4-8880-eefd64873af2")
 		)
@@ -18209,6 +18697,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6bc42bc2-4c4f-4e29-a133-f7672ba8b8ba")
 		)
@@ -18269,6 +18793,42 @@
 			)
 		)
 		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B120-E3/61T"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "B120-E3/61TGICT-ND"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -18545,6 +19105,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16a8acc4-49f3-4755-8f14-f94e861606ce")
 		)
@@ -18562,7 +19158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 68.58 0)
+		(at 27.94 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18571,7 +19167,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f02a8cb-6015-42c9-8521-c3d239e65d8e")
 		(property "Reference" "#PWR02"
-			(at 27.94 74.93 0)
+			(at 27.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +19176,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 73.66 0)
+			(at 27.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18588,7 +19184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 68.58 0)
+			(at 27.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18597,7 +19193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 68.58 0)
+			(at 27.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18606,7 +19202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 68.58 0)
+			(at 27.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18745,6 +19341,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72bff601-dc70-4daa-9885-597fff3cad17")
 		)
@@ -18813,6 +19445,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 228.6 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 228.6 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 228.6 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 228.6 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b92ed5e6-7483-4210-9fd3-adc8f53a8399")
 		)
@@ -18873,6 +19541,42 @@
 			)
 		)
 		(property "Description" "1A, 3.3V LDO regulator with OVP & TSP, without enable, TO-252"
+			(at 80.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Rohm Semiconductor"
+			(at 80.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BD33FC0FP-E2"
+			(at 80.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "BD33FC0FP-E2CT-ND"
+			(at 80.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 80.01 24.13 0)
 			(effects
 				(font
@@ -19376,7 +20080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 135.89 24.1299 0)
 			(effects
 				(font
@@ -19404,6 +20108,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 132.08 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 132.08 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 132.08 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 132.08 22.86 0)
 			(effects
 				(font
@@ -19453,7 +20193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P_Single"
 			(at 228.6 118.11 0)
 			(effects
 				(font
@@ -19480,6 +20220,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Panasonic"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-P7A01P"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "P16763CT-ND"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e8182fe-419f-4ec7-94be-bf98b7a70096")
 		)
@@ -19490,6 +20266,72 @@
 			(project "controller"
 				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
 					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 21.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b25f4cc-e8a5-4f98-bbf7-a393dbd8c86f")
+		(property "Reference" "#PWR06"
+			(at 68.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.58 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fdb3e1b-0ace-41ea-9c63-9f69c1d0513a")
+		)
+		(instances
+			(project "controller"
+				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -19614,6 +20456,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "C&K"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10913247"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "108-10913247CT-ND"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5b4745c-1907-4153-bcc4-a7240ee68173")
 		)
@@ -19676,6 +20554,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-075K1L"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "YAG2741CT-ND"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -19820,6 +20734,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "942005ae-3af8-4165-826f-51bd57708d41")
 		)
@@ -19880,6 +20830,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 167.64 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 167.64 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 167.64 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 167.64 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19985,7 +20971,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 156.718 27.686 90)
 			(effects
 				(font
@@ -20013,6 +20999,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 152.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 152.4 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 152.4 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 152.4 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 152.4 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20080,6 +21102,42 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 25.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 25.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 25.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 25.4 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 25.4 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20287,6 +21345,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 264.16 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 264.16 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 264.16 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 264.16 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a126a451-721f-4898-ae16-e525522a9d2e")
 		)
@@ -20486,6 +21580,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Murata"
+			(at 35.56 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 35.56 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 35.56 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 35.56 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2776c488-a0c7-4f59-a510-56aa53606cae")
 		)
@@ -20546,6 +21676,42 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "C&K"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10913247"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "108-10913247CT-ND"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 250.19 87.63 0)
 			(effects
 				(font
@@ -20621,6 +21787,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Murata"
+			(at 20.32 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM035R60J475ME15D"
+			(at 20.32 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-13230-1-ND"
+			(at 20.32 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 20.32 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cebff252-c521-43a8-babd-11e203ddb0e4")
 		)
@@ -20683,6 +21885,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -20761,6 +21999,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7b608cd-f81c-4776-b897-796d10fb6570")
 		)
@@ -20821,6 +22095,42 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "GCT"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4085-GF-A"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "2073-USB4085-GF-ACT-ND"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 27.94 39.37 0)
 			(effects
 				(font
@@ -20935,6 +22245,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Murata"
+			(at 30.48 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 30.48 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-10387-1-ND"
+			(at 30.48 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 30.48 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d8ae508-569d-49e1-a6ff-9e332a0acba0")
 		)
@@ -21042,7 +22388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P_Single"
 			(at 269.24 128.27 0)
 			(effects
 				(font
@@ -21061,6 +22407,42 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-P7A01P"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "P16763CT-ND"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 269.24 123.19 0)
 			(effects
 				(font
@@ -21242,7 +22624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P_Single"
 			(at 269.24 113.03 0)
 			(effects
 				(font
@@ -21261,6 +22643,42 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-P7A01P"
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "P16763CT-ND"
+			(at 269.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 269.24 107.95 0)
 			(effects
 				(font
@@ -21630,7 +23048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 72.39 33.0199 0)
 			(effects
 				(font
@@ -21639,7 +23057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 69.5452 35.56 0)
 			(effects
 				(font
@@ -21658,6 +23076,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61A106ME11D"
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "490-GRM155R61A106ME11DCT-ND"
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 68.58 31.75 0)
 			(effects
 				(font
@@ -21734,6 +23188,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "C&K"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10913247"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "108-10913247CT-ND"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a7d0819-8b5a-4771-be82-8e187bcb9794")
 		)
@@ -21775,7 +23265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "EVQ-P7A01P:SW_EVQ-P7A01P_Single"
 			(at 228.6 102.87 0)
 			(effects
 				(font
@@ -21794,6 +23284,42 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EVQ-P7A01P"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "P16763CT-ND"
+			(at 228.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 228.6 107.95 0)
 			(effects
 				(font
@@ -21865,6 +23391,42 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 119.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "C&K"
+			(at 119.38 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Y78B21110FP"
+			(at 119.38 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "401-1426-1-ND"
+			(at 119.38 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 119.38 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22008,6 +23570,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67c4c1e0-f745-44fe-a299-abb187a193e6")
 		)
@@ -22142,6 +23740,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 170.18 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 170.18 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 170.18 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 170.18 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e8b9ec3-fe87-4d83-9876-c77f2b0032ab")
 		)
@@ -22267,6 +23901,42 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "C&K"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Y78B21110FP"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "401-1426-1-ND"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 153.67 22.86 0)
 			(effects
 				(font
@@ -22408,6 +24078,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Amphenol ICC"
+			(at 148.59 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021111-00014T1LF"
+			(at 148.59 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "609-4810-ND"
+			(at 148.59 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 148.59 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "ecc5e5c1-5f45-420c-ab6a-c7d1d9bae8d5")
 		)
@@ -22505,6 +24211,42 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 182.88 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 182.88 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 182.88 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 182.88 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22646,6 +24388,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "SCHURTER Inc."
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1301.9302"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "486-3458-ND"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 156.21 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fd18e2e-382d-4c5d-8de4-5a0329a7b856")
 		)
@@ -22779,6 +24557,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "C&K"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10913247"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "108-10913247CT-ND"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f27232fe-d70d-4e35-8629-39a6f6516ba9")
 		)
@@ -22789,74 +24603,6 @@
 			(project "controller"
 				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4809047-f594-4a14-95a8-762f71622ddf")
-		(property "Reference" "R3"
-			(at 24.13 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 24.13 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 24.13 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87ff2471-08ed-4e6f-b8a0-9b8b75c8054b")
-		)
-		(pin "1"
-			(uuid "10b5b7bc-f4d6-4f92-a1b0-afa23de7ae33")
-		)
-		(instances
-			(project "controller"
-				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -22909,6 +24655,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -23043,6 +24825,42 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "SCHURTER Inc."
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1301.9302"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "486-3458-ND"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
 			(at 196.85 135.89 0)
 			(effects
 				(font
@@ -23186,6 +25004,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db848c37-af28-420f-be94-8a0386330a6a")
 		)
@@ -23246,6 +25100,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" ""
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" ""
 			(at 176.53 100.33 0)
 			(effects
 				(font
@@ -23348,6 +25238,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ea5b2e8-b1cd-4362-8ade-a274f01d10f3")
 		)
@@ -23418,6 +25344,42 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Vishay Dale"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW020110K0FNED"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "541-10.0KABCT-ND"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea203502-a21f-4438-9c56-0b4d0372aec1")
 		)
@@ -23478,6 +25440,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" ""
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -23576,6 +25574,42 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Everlight"
+			(at 106.68 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSP0603AN101-WP30300563001-3T"
+			(at 106.68 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "1080-CSP0603AN101-WP30300563001-3TCT-ND"
+			(at 106.68 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPR" "DigiKey"
+			(at 106.68 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
