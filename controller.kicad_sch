@@ -19060,7 +19060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb79c87-2dae-4293-ae8c-d4906cc1b3dd")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 156.21 93.9799 0)
 			(effects
 				(font
@@ -19150,7 +19150,7 @@
 		(instances
 			(project "controller"
 				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21954,7 +21954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b006d44-ddd5-4d63-b4c3-743030be62da")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 158.75 105.4099 0)
 			(effects
 				(font
@@ -22044,7 +22044,7 @@
 		(instances
 			(project "controller"
 				(path "/8767df91-471e-42dd-a6da-5f13f49512a3"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
