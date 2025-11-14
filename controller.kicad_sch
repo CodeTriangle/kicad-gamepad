@@ -24078,7 +24078,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Amphenol ICC"
+		(property "MFR" "CNC Tech"
 			(at 148.59 63.5 90)
 			(effects
 				(font
@@ -24087,7 +24087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "20021111-00014T1LF"
+		(property "MPN" "3220-14-0100-00"
 			(at 148.59 63.5 90)
 			(effects
 				(font
@@ -24096,7 +24096,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "609-4810-ND"
+		(property "SPN" "1175-1630-ND"
 			(at 148.59 63.5 90)
 			(effects
 				(font
